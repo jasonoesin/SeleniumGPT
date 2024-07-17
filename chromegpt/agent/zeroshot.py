@@ -9,7 +9,7 @@ from langchain.agents.mrkl.base import ZeroShotAgent as LangChainZeroShotAgent
 from langchain.chat_models import ChatOpenAI
 from langchain.experimental import BabyAGI
 from langchain.schema import AgentAction
-from langchain.tools.base import BaseTool
+from langchain.tools.base import BaseTool, StructuredTool
 
 from chromegpt.agent.chromegpt_agent import ChromeGPTAgent
 from chromegpt.agent.utils import get_agent_tools, get_vectorstore
@@ -63,7 +63,7 @@ class BabyAGIAgent(ChromeGPTAgent):
         self.model = model
         self.babyagi = self._get_baby_agi(verbose=verbose)
 
-    def _get_todo_tool(self) -> Tool:
+    def _get_todo_tool(self) -> StructuredTool:
         todo_prompt = PromptTemplate.from_template(
             "You are a planner who is an expert at coming up "
             "with a todo list for a given objective. Come up "
@@ -73,7 +73,7 @@ class BabyAGIAgent(ChromeGPTAgent):
             llm=ChatOpenAI(model=self.model, temperature=0),  # type: ignore
             prompt=todo_prompt,
         )
-        return Tool(
+        return StructuredTool(
             name="TODO",
             func=todo_chain.run,
             description=(

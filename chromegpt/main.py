@@ -2,6 +2,9 @@ from chromegpt.agent.autogpt import AutoGPTAgent
 from chromegpt.agent.chromegpt_agent import ChromeGPTAgent
 from chromegpt.agent.zeroshot import BabyAGIAgent, ZeroShotAgent
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 def run_chromegpt(
     task: str,

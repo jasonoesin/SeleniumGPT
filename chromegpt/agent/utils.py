@@ -3,7 +3,7 @@ from typing import List
 from langchain.agents import Tool
 from langchain.docstore import InMemoryDocstore
 from langchain.embeddings import OpenAIEmbeddings
-from langchain.tools.base import BaseTool
+from langchain.tools.base import BaseTool, StructuredTool
 from langchain.vectorstores import FAISS
 
 from chromegpt.tools.selenium import (
@@ -21,19 +21,19 @@ def get_agent_tools() -> List[BaseTool]:
     """Get the tools that will be used by the AI agent."""
     selenium = SeleniumWrapper()
     tools: List[BaseTool] = [
-        Tool(
+        StructuredTool(
             name="goto",
             func=selenium.describe_website,
             description="useful for when you need visit a link or a website",
             args_schema=DescribeWebsiteInput,
         ),
-        Tool(
+        StructuredTool(
             name="click",
             func=selenium.click_button_by_text,
             description="useful for when you need to click a button/link",
             args_schema=ClickButtonInput,
         ),
-        Tool(
+        StructuredTool(
             name="find_form",
             func=selenium.find_form_inputs,
             description=(
@@ -42,7 +42,7 @@ def get_agent_tools() -> List[BaseTool]:
             ),
             args_schema=FindFormInput,
         ),
-        Tool(
+        StructuredTool(
             name="fill_form",
             func=selenium.fill_out_form,  # type: ignore
             description=(
@@ -51,7 +51,7 @@ def get_agent_tools() -> List[BaseTool]:
             ),
             args_schema=FillOutFormInput,
         ),
-        Tool(
+        StructuredTool(
             name="scroll",
             func=selenium.scroll,
             description=(
@@ -59,14 +59,14 @@ def get_agent_tools() -> List[BaseTool]:
             ),
             args_schema=ScrollInput,
         ),
-        Tool(
+        StructuredTool(
             name="google_search",
             func=selenium.google_search,
             description="perform a google search",
             args_schema=GoogleSearchInput,
         ),
         # TODO: Re-enable this, StopIteration error, cannot parse None as input
-        # Tool(
+        # StructuredTool(
         #     name="previous_webpage",
         #     func=selenium.previous_webpage,
         #     description="navigate back to the previous page in the browser history",
