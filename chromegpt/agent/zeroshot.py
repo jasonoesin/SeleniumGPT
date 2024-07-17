@@ -6,7 +6,7 @@ from langchain import LLMChain, PromptTemplate
 from langchain.agents import AgentType, Tool, initialize_agent
 from langchain.agents.agent import AgentExecutor
 from langchain.agents.mrkl.base import ZeroShotAgent as LangChainZeroShotAgent
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import AzureChatOpenAI
 from langchain.experimental import BabyAGI
 from langchain.schema import AgentAction
 from langchain.tools.base import BaseTool
@@ -14,8 +14,12 @@ from langchain.tools.base import BaseTool
 from chromegpt.agent.chromegpt_agent import ChromeGPTAgent
 from chromegpt.agent.utils import get_agent_tools, get_vectorstore
 
+from dotenv import load_dotenv
 
-def get_zeroshot_agent(llm: ChatOpenAI, verbose: bool = False) -> AgentExecutor:
+load_dotenv()
+
+
+def get_zeroshot_agent(llm: AzureChatOpenAI, verbose: bool = False) -> AgentExecutor:
     """Get the zero shot agent. Optimized for GPT-3.5 use."""
     tools = get_agent_tools()
     agent = initialize_agent(
@@ -45,7 +49,9 @@ class ZeroShotAgent(ChromeGPTAgent):
         """Initialize the ZeroShotAgent."""
         self.model = model
         self.agent = get_zeroshot_agent(
-            llm=ChatOpenAI(model_name=model, temperature=0),  # type: ignore
+            llm=AzureChatOpenAI(model_name=model, temperature=0, openai_api_base="https://dana-automation-copilot-scus.openai.azure.com/", openai_api_key="4105969628f44ea598e3ff8fb4c8d28f",
+            openai_api_version="2023-05-15",
+            deployment_name="gpt-4-0125-preview"),  # type: ignore
             verbose=verbose,
         )
         self.agent.max_iterations = 30
@@ -70,7 +76,9 @@ class BabyAGIAgent(ChromeGPTAgent):
             "with a todo list for this objective: {objective}"
         )
         todo_chain = LLMChain(
-            llm=ChatOpenAI(model=self.model, temperature=0),  # type: ignore
+            llm=AzureChatOpenAI(model_name=self.model, temperature=0, openai_api_base="https://dana-automation-copilot-scus.openai.azure.com/", openai_api_key="4105969628f44ea598e3ff8fb4c8d28f",
+            openai_api_version="2023-05-15",
+            deployment_name="gpt-4-0125-preview"),  # type: ignore
             prompt=todo_prompt,
         )
         return Tool(
@@ -85,7 +93,9 @@ class BabyAGIAgent(ChromeGPTAgent):
 
     def _get_baby_agi(self, verbose: bool = False, max_iterations: int = 20) -> BabyAGI:
         """Get the zero shot agent. Optimized for GPT-3.5 use."""
-        llm = ChatOpenAI(model_name=self.model, temperature=0)  # type: ignore
+        llm = AzureChatOpenAI(model_name=self.model, temperature=0, openai_api_base="https://dana-automation-copilot-scus.openai.azure.com/", openai_api_key="4105969628f44ea598e3ff8fb4c8d28f",
+            openai_api_version="2023-05-15",
+            deployment_name="gpt-4-0125-preview")  # type: ignore
         tools = get_agent_tools()
         # Add ToDo tool for baby agi
         tools.append(self._get_todo_tool())
@@ -101,7 +111,7 @@ class BabyAGIAgent(ChromeGPTAgent):
         return baby_agi
 
     def _get_zero_shot_agent(
-        self, llm: ChatOpenAI, verbose: bool, tools: List[BaseTool]
+        self, llm: AzureChatOpenAI, verbose: bool, tools: List[BaseTool]
     ) -> AgentExecutor:
         prefix = (
             "You are an AI who performs one task based on the "

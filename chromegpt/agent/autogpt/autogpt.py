@@ -2,7 +2,7 @@
 from typing import List
 
 from langchain import LLMChain
-from langchain.chat_models import ChatOpenAI
+from langchain.chat_models import AzureChatOpenAI
 from langchain.experimental import AutoGPT
 from langchain.experimental.autonomous_agents.autogpt.output_parser import (
     AutoGPTOutputParser,
@@ -13,6 +13,9 @@ from chromegpt.agent.autogpt.prompt import AutoGPTPrompt
 from chromegpt.agent.chromegpt_agent import ChromeGPTAgent
 from chromegpt.agent.utils import get_agent_tools, get_vectorstore
 
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class AutoGPTAgent(ChromeGPTAgent):
     """AutoGPT agent for ChromeGPT. Note that this agent is optimized for GPT-4 use."""
@@ -22,14 +25,16 @@ class AutoGPTAgent(ChromeGPTAgent):
     ) -> None:
         """Initialize the AutoGPTAgent."""
         self.agent = self._get_autogpt_agent(
-            llm=ChatOpenAI(model_name=model, temperature=0),  # type: ignore
+            llm=AzureChatOpenAI(model_name=model, temperature=0, openai_api_base="https://dana-automation-copilot-scus.openai.azure.com/", openai_api_key="4105969628f44ea598e3ff8fb4c8d28f",
+            openai_api_version="2023-05-15",
+            deployment_name="gpt-4-0125-preview"),  # type: ignore
             verbose=verbose,
             human_in_the_loop=not continuous,
         )
         self.model = model
 
     def _get_autogpt_agent(
-        self, llm: ChatOpenAI, verbose: bool, human_in_the_loop: bool = False
+        self, llm: AzureChatOpenAI, verbose: bool, human_in_the_loop: bool = False
     ) -> AutoGPT:
         vectorstore = get_vectorstore()
         tools = get_agent_tools()

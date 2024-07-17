@@ -1,0 +1,1245 @@
+[
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "LLMChain",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "PromptTemplate",
+        "importPath": "langchain",
+        "description": "langchain",
+        "isExtraImport": true,
+        "detail": "langchain",
+        "documentation": {}
+    },
+    {
+        "label": "AzureChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "AzureChatOpenAI",
+        "importPath": "langchain.chat_models",
+        "description": "langchain.chat_models",
+        "isExtraImport": true,
+        "detail": "langchain.chat_models",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPT",
+        "importPath": "langchain.experimental",
+        "description": "langchain.experimental",
+        "isExtraImport": true,
+        "detail": "langchain.experimental",
+        "documentation": {}
+    },
+    {
+        "label": "BabyAGI",
+        "importPath": "langchain.experimental",
+        "description": "langchain.experimental",
+        "isExtraImport": true,
+        "detail": "langchain.experimental",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPTOutputParser",
+        "importPath": "langchain.experimental.autonomous_agents.autogpt.output_parser",
+        "description": "langchain.experimental.autonomous_agents.autogpt.output_parser",
+        "isExtraImport": true,
+        "detail": "langchain.experimental.autonomous_agents.autogpt.output_parser",
+        "documentation": {}
+    },
+    {
+        "label": "HumanInputRun",
+        "importPath": "langchain.tools.human.tool",
+        "description": "langchain.tools.human.tool",
+        "isExtraImport": true,
+        "detail": "langchain.tools.human.tool",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPTPrompt",
+        "importPath": "chromegpt.agent.autogpt.prompt",
+        "description": "chromegpt.agent.autogpt.prompt",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.autogpt.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeGPTAgent",
+        "importPath": "chromegpt.agent.chromegpt_agent",
+        "description": "chromegpt.agent.chromegpt_agent",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.chromegpt_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeGPTAgent",
+        "importPath": "chromegpt.agent.chromegpt_agent",
+        "description": "chromegpt.agent.chromegpt_agent",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.chromegpt_agent",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeGPTAgent",
+        "importPath": "chromegpt.agent.chromegpt_agent",
+        "description": "chromegpt.agent.chromegpt_agent",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.chromegpt_agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent_tools",
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent_tools",
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "get_prompt",
+        "importPath": "langchain.experimental.autonomous_agents.autogpt.prompt_generator",
+        "description": "langchain.experimental.autonomous_agents.autogpt.prompt_generator",
+        "isExtraImport": true,
+        "detail": "langchain.experimental.autonomous_agents.autogpt.prompt_generator",
+        "documentation": {}
+    },
+    {
+        "label": "BaseChatPromptTemplate",
+        "importPath": "langchain.prompts.chat",
+        "description": "langchain.prompts.chat",
+        "isExtraImport": true,
+        "detail": "langchain.prompts.chat",
+        "documentation": {}
+    },
+    {
+        "label": "BaseMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "HumanMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "SystemMessage",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "AgentAction",
+        "importPath": "langchain.schema",
+        "description": "langchain.schema",
+        "isExtraImport": true,
+        "detail": "langchain.schema",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "langchain.tools.base",
+        "description": "langchain.tools.base",
+        "isExtraImport": true,
+        "detail": "langchain.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "langchain.tools.base",
+        "description": "langchain.tools.base",
+        "isExtraImport": true,
+        "detail": "langchain.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseTool",
+        "importPath": "langchain.tools.base",
+        "description": "langchain.tools.base",
+        "isExtraImport": true,
+        "detail": "langchain.tools.base",
+        "documentation": {}
+    },
+    {
+        "label": "VectorStoreRetriever",
+        "importPath": "langchain.vectorstores.base",
+        "description": "langchain.vectorstores.base",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores.base",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ABC",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "abstractmethod",
+        "importPath": "abc",
+        "description": "abc",
+        "isExtraImport": true,
+        "detail": "abc",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "AgentType",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "Tool",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_agent",
+        "importPath": "langchain.agents",
+        "description": "langchain.agents",
+        "isExtraImport": true,
+        "detail": "langchain.agents",
+        "documentation": {}
+    },
+    {
+        "label": "InMemoryDocstore",
+        "importPath": "langchain.docstore",
+        "description": "langchain.docstore",
+        "isExtraImport": true,
+        "detail": "langchain.docstore",
+        "documentation": {}
+    },
+    {
+        "label": "OpenAIEmbeddings",
+        "importPath": "langchain.embeddings",
+        "description": "langchain.embeddings",
+        "isExtraImport": true,
+        "detail": "langchain.embeddings",
+        "documentation": {}
+    },
+    {
+        "label": "FAISS",
+        "importPath": "langchain.vectorstores",
+        "description": "langchain.vectorstores",
+        "isExtraImport": true,
+        "detail": "langchain.vectorstores",
+        "documentation": {}
+    },
+    {
+        "label": "ClickButtonInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "DescribeWebsiteInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "FillOutFormInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "FindFormInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleSearchInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "ScrollInput",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "SeleniumWrapper",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "SeleniumWrapper",
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "types",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "types",
+        "description": "types",
+        "detail": "types",
+        "documentation": {}
+    },
+    {
+        "label": "AgentExecutor",
+        "importPath": "langchain.agents.agent",
+        "description": "langchain.agents.agent",
+        "isExtraImport": true,
+        "detail": "langchain.agents.agent",
+        "documentation": {}
+    },
+    {
+        "label": "ZeroShotAgent",
+        "importPath": "langchain.agents.mrkl.base",
+        "description": "langchain.agents.mrkl.base",
+        "isExtraImport": true,
+        "detail": "langchain.agents.mrkl.base",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "ActionChains",
+        "importPath": "selenium.webdriver.common.action_chains",
+        "description": "selenium.webdriver.common.action_chains",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.action_chains",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "WebElement",
+        "importPath": "selenium.webdriver.remote.webelement",
+        "description": "selenium.webdriver.remote.webelement",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.remote.webelement",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "webdriver",
+        "importPath": "selenium",
+        "description": "selenium",
+        "isExtraImport": true,
+        "detail": "selenium",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingWebElement",
+        "importPath": "chromegpt.tools.logging_webelement",
+        "description": "chromegpt.tools.logging_webelement",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.logging_webelement",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "Keys",
+        "importPath": "selenium.webdriver.common.keys",
+        "description": "selenium.webdriver.common.keys",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.keys",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverWait",
+        "importPath": "selenium.webdriver.support.ui",
+        "description": "selenium.webdriver.support.ui",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support.ui",
+        "documentation": {}
+    },
+    {
+        "label": "expected_conditions",
+        "importPath": "selenium.webdriver.support",
+        "description": "selenium.webdriver.support",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.support",
+        "documentation": {}
+    },
+    {
+        "label": "StaleElementReferenceException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriverException",
+        "importPath": "selenium.common.exceptions",
+        "description": "selenium.common.exceptions",
+        "isExtraImport": true,
+        "detail": "selenium.common.exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Options",
+        "importPath": "selenium.webdriver.chrome.options",
+        "description": "selenium.webdriver.chrome.options",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.options",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "By",
+        "importPath": "selenium.webdriver.common.by",
+        "description": "selenium.webdriver.common.by",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.common.by",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "urllib.parse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "urllib.parse",
+        "description": "urllib.parse",
+        "detail": "urllib.parse",
+        "documentation": {}
+    },
+    {
+        "label": "validators",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "validators",
+        "description": "validators",
+        "detail": "validators",
+        "documentation": {}
+    },
+    {
+        "label": "BeautifulSoup",
+        "importPath": "bs4",
+        "description": "bs4",
+        "isExtraImport": true,
+        "detail": "bs4",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingActionChains",
+        "importPath": "chromegpt.tools.logging_actionchains",
+        "description": "chromegpt.tools.logging_actionchains",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.logging_actionchains",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingWebDriver",
+        "importPath": "chromegpt.tools.logging_webdriver",
+        "description": "chromegpt.tools.logging_webdriver",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.logging_webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "clear_selenium_commands_log",
+        "importPath": "chromegpt.tools.logging_webdriver",
+        "description": "chromegpt.tools.logging_webdriver",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.logging_webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "generate_selenium_code",
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "wipe_selenium_code",
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "generate_selenium_code",
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "wipe_selenium_code",
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "find_parent_element_text",
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_text_elements",
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "prettify_text",
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "truncate_string_from_last_occurrence",
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "isExtraImport": true,
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "WebDriver",
+        "importPath": "selenium.webdriver.chrome.webdriver",
+        "description": "selenium.webdriver.chrome.webdriver",
+        "isExtraImport": true,
+        "detail": "selenium.webdriver.chrome.webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "unidecode",
+        "importPath": "unidecode",
+        "description": "unidecode",
+        "isExtraImport": true,
+        "detail": "unidecode",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPTAgent",
+        "importPath": "chromegpt.agent.autogpt",
+        "description": "chromegpt.agent.autogpt",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.autogpt",
+        "documentation": {}
+    },
+    {
+        "label": "BabyAGIAgent",
+        "importPath": "chromegpt.agent.zeroshot",
+        "description": "chromegpt.agent.zeroshot",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.zeroshot",
+        "documentation": {}
+    },
+    {
+        "label": "ZeroShotAgent",
+        "importPath": "chromegpt.agent.zeroshot",
+        "description": "chromegpt.agent.zeroshot",
+        "isExtraImport": true,
+        "detail": "chromegpt.agent.zeroshot",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPTAgent",
+        "kind": 6,
+        "importPath": "chromegpt.agent.autogpt.autogpt",
+        "description": "chromegpt.agent.autogpt.autogpt",
+        "peekOfCode": "class AutoGPTAgent(ChromeGPTAgent):\n    \"\"\"AutoGPT agent for ChromeGPT. Note that this agent is optimized for GPT-4 use.\"\"\"\n    def __init__(\n        self, model: str = \"gpt-4\", verbose: bool = False, continuous: bool = True\n    ) -> None:\n        \"\"\"Initialize the AutoGPTAgent.\"\"\"\n        self.agent = self._get_autogpt_agent(\n            llm=AzureChatOpenAI(model_name=model, temperature=0, openai_api_base=\"https://dana-automation-copilot-scus.openai.azure.com/\", openai_api_key=\"4105969628f44ea598e3ff8fb4c8d28f\",\n            openai_api_version=\"2023-05-15\",\n            deployment_name=\"gpt-4-0125-preview\"),  # type: ignore",
+        "detail": "chromegpt.agent.autogpt.autogpt",
+        "documentation": {}
+    },
+    {
+        "label": "AutoGPTPrompt",
+        "kind": 6,
+        "importPath": "chromegpt.agent.autogpt.prompt",
+        "description": "chromegpt.agent.autogpt.prompt",
+        "peekOfCode": "class AutoGPTPrompt(BaseChatPromptTemplate, BaseModel):\n    ai_name: str\n    ai_role: str\n    tools: List[BaseTool]\n    token_counter: Callable[[str], int]\n    send_token_limit: int = 4196\n    def construct_full_prompt(self, goals: List[str]) -> str:\n        prompt_start = (\n            \"Your decisions must always be made independently \"\n            \"without seeking user assistance.\\n\"",
+        "detail": "chromegpt.agent.autogpt.prompt",
+        "documentation": {}
+    },
+    {
+        "label": "ChromeGPTAgent",
+        "kind": 6,
+        "importPath": "chromegpt.agent.chromegpt_agent",
+        "description": "chromegpt.agent.chromegpt_agent",
+        "peekOfCode": "class ChromeGPTAgent(ABC):\n    \"\"\"Abstract class for ChromeGPT agents.\"\"\"\n    model: str\n    verbose: bool = False\n    @abstractmethod\n    def run(self, tasks: List[str]) -> str:\n        \"\"\"Take in a list of tasks and return executed result.\"\"\"",
+        "detail": "chromegpt.agent.chromegpt_agent",
+        "documentation": {}
+    },
+    {
+        "label": "get_agent_tools",
+        "kind": 2,
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "peekOfCode": "def get_agent_tools() -> List[BaseTool]:\n    \"\"\"Get the tools that will be used by the AI agent.\"\"\"\n    selenium = SeleniumWrapper()\n    tools: List[BaseTool] = [\n        Tool(\n            name=\"goto\",\n            func=selenium.describe_website,\n            description=\"useful for when you need visit a link or a website\",\n            args_schema=DescribeWebsiteInput,\n        ),",
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_vectorstore",
+        "kind": 2,
+        "importPath": "chromegpt.agent.utils",
+        "description": "chromegpt.agent.utils",
+        "peekOfCode": "def get_vectorstore() -> FAISS:\n    # Define your embedding model\n    embeddings_model = OpenAIEmbeddings()  # type: ignore\n    # Initialize the vectorstore as empty\n    import faiss\n    embedding_size = 1536\n    index = faiss.IndexFlatL2(embedding_size)\n    vectorstore = FAISS(embeddings_model.embed_query, index, InMemoryDocstore({}), {})\n    return vectorstore",
+        "detail": "chromegpt.agent.utils",
+        "documentation": {}
+    },
+    {
+        "label": "ZeroShotAgent",
+        "kind": 6,
+        "importPath": "chromegpt.agent.zeroshot",
+        "description": "chromegpt.agent.zeroshot",
+        "peekOfCode": "class ZeroShotAgent(ChromeGPTAgent):\n    def __init__(self, model: str = \"gpt-3.5-turbo\", verbose: bool = False) -> None:\n        \"\"\"Initialize the ZeroShotAgent.\"\"\"\n        self.model = model\n        self.agent = get_zeroshot_agent(\n            llm=AzureChatOpenAI(model_name=model, temperature=0, openai_api_base=\"https://dana-automation-copilot-scus.openai.azure.com/\", openai_api_key=\"4105969628f44ea598e3ff8fb4c8d28f\",\n            openai_api_version=\"2023-05-15\",\n            deployment_name=\"gpt-4-0125-preview\"),  # type: ignore\n            verbose=verbose,\n        )",
+        "detail": "chromegpt.agent.zeroshot",
+        "documentation": {}
+    },
+    {
+        "label": "BabyAGIAgent",
+        "kind": 6,
+        "importPath": "chromegpt.agent.zeroshot",
+        "description": "chromegpt.agent.zeroshot",
+        "peekOfCode": "class BabyAGIAgent(ChromeGPTAgent):\n    def __init__(self, model: str = \"gpt-3.5-turbo\", verbose: bool = False) -> None:\n        \"\"\"Initialize the BabyAGIAgent.\"\"\"\n        self.model = model\n        self.babyagi = self._get_baby_agi(verbose=verbose)\n    def _get_todo_tool(self) -> Tool:\n        todo_prompt = PromptTemplate.from_template(\n            \"You are a planner who is an expert at coming up \"\n            \"with a todo list for a given objective. Come up \"\n            \"with a todo list for this objective: {objective}\"",
+        "detail": "chromegpt.agent.zeroshot",
+        "documentation": {}
+    },
+    {
+        "label": "get_zeroshot_agent",
+        "kind": 2,
+        "importPath": "chromegpt.agent.zeroshot",
+        "description": "chromegpt.agent.zeroshot",
+        "peekOfCode": "def get_zeroshot_agent(llm: AzureChatOpenAI, verbose: bool = False) -> AgentExecutor:\n    \"\"\"Get the zero shot agent. Optimized for GPT-3.5 use.\"\"\"\n    tools = get_agent_tools()\n    agent = initialize_agent(\n        tools, llm, agent=AgentType.CHAT_ZERO_SHOT_REACT_DESCRIPTION, verbose=verbose\n    )\n    return agent\ndef _get_full_inputs(\n    self: Any,\n    intermediate_steps: List[Tuple[AgentAction, str]],",
+        "detail": "chromegpt.agent.zeroshot",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingActionChains",
+        "kind": 6,
+        "importPath": "chromegpt.tools.logging_actionchains",
+        "description": "chromegpt.tools.logging_actionchains",
+        "peekOfCode": "class LoggingActionChains(ActionChains):\n    def __init__(self, driver):\n        super().__init__(driver)\n        self._last_moved_element = None\n    def move_to_element(self, to_element):\n        self._last_moved_element = to_element\n        return super().move_to_element(to_element)\n    def click(self, on_element=None):\n        with open(\"selenium_commands.log\", \"a\") as f:\n            target_element = on_element or self._last_moved_element",
+        "detail": "chromegpt.tools.logging_actionchains",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingWebDriver",
+        "kind": 6,
+        "importPath": "chromegpt.tools.logging_webdriver",
+        "description": "chromegpt.tools.logging_webdriver",
+        "peekOfCode": "class LoggingWebDriver(webdriver.Chrome):\n    def __init__(self, *args, **kwargs):\n        super().__init__(*args, **kwargs)\n    def get(self, url):\n        with open(\"selenium_commands.log\", \"a\") as f:\n            f.write(f\"Visited URL: {url}\\n\")\n        super().get(url)\n    def find_element(self, by, value):\n        element = super().find_element(by, value)\n        return LoggingWebElement(element._parent, element._id, by, value)",
+        "detail": "chromegpt.tools.logging_webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "clear_selenium_commands_log",
+        "kind": 2,
+        "importPath": "chromegpt.tools.logging_webdriver",
+        "description": "chromegpt.tools.logging_webdriver",
+        "peekOfCode": "def clear_selenium_commands_log():\n    with open(\"selenium_commands.log\", \"w\") as f:\n        f.write(\"\")",
+        "detail": "chromegpt.tools.logging_webdriver",
+        "documentation": {}
+    },
+    {
+        "label": "LoggingWebElement",
+        "kind": 6,
+        "importPath": "chromegpt.tools.logging_webelement",
+        "description": "chromegpt.tools.logging_webelement",
+        "peekOfCode": "class LoggingWebElement(WebElement):\n    def __init__(self, parent, id_, by=None, value=None):\n        super().__init__(parent, id_)\n        self._by = by\n        self._value = value\n    def click(self):\n        self._log(f\"Clicking on element located by {self._by}='{self._value}'\")\n        super().click()\n    def send_keys(self, *value):\n        readable_keys = self._translate_keys(value)",
+        "detail": "chromegpt.tools.logging_webelement",
+        "documentation": {}
+    },
+    {
+        "label": "SeleniumWrapper",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class SeleniumWrapper:\n    \"\"\"Wrapper around Selenium.\n    To use, you should have the ``selenium`` python package installed.\n    Example:\n        .. code-block:: python\n            from langchain import SeleniumWrapper\n            selenium = SeleniumWrapper()\n    \"\"\"\n    def __init__(self, headless: bool = False) -> None:\n        \"\"\"Initialize Selenium and start interactive session.\"\"\"",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "GoogleSearchInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class GoogleSearchInput(BaseModel):\n    \"\"\"Google search input model.\"\"\"\n    query: str = Field(..., description=\"search query\")\nclass DescribeWebsiteInput(BaseModel):\n    \"\"\"Describe website input model.\"\"\"\n    url: str = Field(\n        ...,\n        description=\"full URL starting with http or https\",\n        example=\"https://www.google.com/\",\n    )",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "DescribeWebsiteInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class DescribeWebsiteInput(BaseModel):\n    \"\"\"Describe website input model.\"\"\"\n    url: str = Field(\n        ...,\n        description=\"full URL starting with http or https\",\n        example=\"https://www.google.com/\",\n    )\nclass ClickButtonInput(BaseModel):\n    \"\"\"Click button input model.\"\"\"\n    button_text: str = Field(",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "ClickButtonInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class ClickButtonInput(BaseModel):\n    \"\"\"Click button input model.\"\"\"\n    button_text: str = Field(\n        ...,\n        description=\"text of the button/link you want to click\",\n        example=\"Contact Us\",\n    )\nclass FindFormInput(BaseModel):\n    \"\"\"Find form input input model.\"\"\"\n    url: Optional[str] = Field(",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "FindFormInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class FindFormInput(BaseModel):\n    \"\"\"Find form input input model.\"\"\"\n    url: Optional[str] = Field(\n        default=None,\n        description=\"the current website url\",\n        example=\"https://www.google.com/\",\n    )\nclass FillOutFormInput(BaseModel):\n    \"\"\"Fill out form input model.\"\"\"\n    form_input: Optional[str] = Field(",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "FillOutFormInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class FillOutFormInput(BaseModel):\n    \"\"\"Fill out form input model.\"\"\"\n    form_input: Optional[str] = Field(\n        default=None,\n        description=\"json formatted string with the input fields and their values\",\n        example='{\"email\": \"foo@bar.com\",\"name\": \"foo bar\"}',\n    )\nclass ScrollInput(BaseModel):\n    \"\"\"Scroll window.\"\"\"\n    direction: str = Field(",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "ScrollInput",
+        "kind": 6,
+        "importPath": "chromegpt.tools.selenium",
+        "description": "chromegpt.tools.selenium",
+        "peekOfCode": "class ScrollInput(BaseModel):\n    \"\"\"Scroll window.\"\"\"\n    direction: str = Field(\n        default=\"down\", description=\"direction to scroll, either 'up' or 'down'\"\n    )",
+        "detail": "chromegpt.tools.selenium",
+        "documentation": {}
+    },
+    {
+        "label": "generate_selenium_code",
+        "kind": 2,
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "peekOfCode": "def generate_selenium_code(log_file, test_file):\n    key_map = {\n        '\\ue009a': ('Keys.CONTROL', 'a'),\n        'Keys.END': 'Keys.END',\n        'Keys.ENTER': 'Keys.ENTER',\n    }\n    with open(log_file, 'r') as log, open(test_file, 'w') as test:\n        # Write the initial setup for the Selenium test\n        test.write(\"from selenium import webdriver\\n\")\n        test.write(\"from selenium.webdriver.common.by import By\\n\")",
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "wipe_selenium_code",
+        "kind": 2,
+        "importPath": "chromegpt.tools.selenium_code_generator",
+        "description": "chromegpt.tools.selenium_code_generator",
+        "peekOfCode": "def wipe_selenium_code():\n    with open(\"selenium_code.py\", \"w\") as f:\n        f.write(\"\")",
+        "detail": "chromegpt.tools.selenium_code_generator",
+        "documentation": {}
+    },
+    {
+        "label": "is_complete_sentence",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def is_complete_sentence(text: str) -> bool:\n    return re.search(r\"[.!?]\\s*$\", text) is not None\ndef get_all_text_elements(driver: WebDriver) -> List[str]:\n    xpath = (\n        \"//*[not(self::script or self::style or\"\n        \" self::noscript)][string-length(normalize-space(text())) > 0]\"\n    )\n    elements = driver.find_elements(By.XPATH, xpath)\n    texts = [\n        element.text.strip()",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "get_all_text_elements",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def get_all_text_elements(driver: WebDriver) -> List[str]:\n    xpath = (\n        \"//*[not(self::script or self::style or\"\n        \" self::noscript)][string-length(normalize-space(text())) > 0]\"\n    )\n    elements = driver.find_elements(By.XPATH, xpath)\n    texts = [\n        element.text.strip()\n        for element in elements\n        if element.text.strip()",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_interactable_elements",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def find_interactable_elements(driver: WebDriver) -> List[str]:\n    \"\"\"Find all interactable elements on the page.\"\"\"\n    # Extract interactable components (buttons and links)\n    buttons = driver.find_elements(By.XPATH, \"//button\")\n    links = driver.find_elements(By.XPATH, \"//a\")\n    interactable_elements = buttons + links\n    interactable_output = []\n    for element in interactable_elements:\n        if (\n            element.is_displayed()",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "prettify_text",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def prettify_text(text: str, limit: Optional[int] = None) -> str:\n    \"\"\"Prettify text by removing extra whitespace and converting to lowercase.\"\"\"\n    text = re.sub(r\"\\s+\", \" \", text)\n    text = text.strip().lower()\n    text = unidecode(text)\n    if limit:\n        text = text[:limit]\n    return text\ndef element_completely_viewable(driver: WebDriver, elem: WebElement) -> bool:\n    \"\"\"Check if an element is completely viewable in the browser window.\"\"\"",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "element_completely_viewable",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def element_completely_viewable(driver: WebDriver, elem: WebElement) -> bool:\n    \"\"\"Check if an element is completely viewable in the browser window.\"\"\"\n    elem_left_bound = elem.location.get(\"x\")\n    elem_top_bound = elem.location.get(\"y\")\n    elem_right_bound = elem_left_bound\n    elem_lower_bound = elem_top_bound\n    win_upper_bound = driver.execute_script(\"return window.pageYOffset\")\n    win_left_bound = driver.execute_script(\"return window.pageXOffset\")\n    win_width = driver.execute_script(\"return document.documentElement.clientWidth\")\n    win_height = driver.execute_script(\"return document.documentElement.clientHeight\")",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "find_parent_element_text",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def find_parent_element_text(elem: WebElement, prettify: bool = True) -> str:\n    \"\"\"Find the text up to third order parent element.\"\"\"\n    parent_element_text = elem.text.strip()\n    if parent_element_text:\n        return (\n            parent_element_text if not prettify else prettify_text(parent_element_text)\n        )\n    elements = elem.find_elements(By.XPATH, \"./ancestor::*[position() <= 3]\")\n    for parent_element in elements:\n        parent_element_text = parent_element.text.strip()",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "truncate_string_from_last_occurrence",
+        "kind": 2,
+        "importPath": "chromegpt.tools.utils",
+        "description": "chromegpt.tools.utils",
+        "peekOfCode": "def truncate_string_from_last_occurrence(string: str, character: str) -> str:\n    \"\"\"Truncate a string from the last occurrence of a character.\"\"\"\n    last_occurrence_index = string.rfind(character)\n    if last_occurrence_index != -1:\n        truncated_string = string[: last_occurrence_index + 1]\n        return truncated_string\n    else:\n        return string",
+        "detail": "chromegpt.tools.utils",
+        "documentation": {}
+    },
+    {
+        "label": "run_chromegpt",
+        "kind": 2,
+        "importPath": "chromegpt.main",
+        "description": "chromegpt.main",
+        "peekOfCode": "def run_chromegpt(\n    task: str,\n    model: str = \"gpt-3.5-turbo\",\n    agent: str = \"zero-shot\",\n    headless: bool = False,\n    verbose: bool = False,\n    continuous: bool = True,\n) -> str:\n    \"\"\"Run ChromeGPT.\"\"\"\n    # setup agent",
+        "detail": "chromegpt.main",
+        "documentation": {}
+    },
+    {
+        "label": "client",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def client() -> SeleniumWrapper:\n    return SeleniumWrapper(headless=True)\ndef test_describe_website(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper returns correct website\"\"\"\n    output = client.describe_website(\"https://example.com\")\n    assert \"this domain is for use in illu\" in output\ndef test_click(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper click works\"\"\"\n    client.describe_website(\"https://example.com\")\n    output = client.click_button_by_text('link with title \"More information...\"')",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "test_describe_website",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def test_describe_website(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper returns correct website\"\"\"\n    output = client.describe_website(\"https://example.com\")\n    assert \"this domain is for use in illu\" in output\ndef test_click(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper click works\"\"\"\n    client.describe_website(\"https://example.com\")\n    output = client.click_button_by_text('link with title \"More information...\"')\n    assert \"Clicked interactable element and the website changed\" in output\ndef test_google_input(client: SeleniumWrapper) -> None:",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "test_click",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def test_click(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper click works\"\"\"\n    client.describe_website(\"https://example.com\")\n    output = client.click_button_by_text('link with title \"More information...\"')\n    assert \"Clicked interactable element and the website changed\" in output\ndef test_google_input(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper can find input form\"\"\"\n    output = client.find_form_inputs(\"https://google.com\")\n    assert \"q\" in output\ndef test_google_fill(client: SeleniumWrapper) -> None:",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "test_google_input",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def test_google_input(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper can find input form\"\"\"\n    output = client.find_form_inputs(\"https://google.com\")\n    assert \"q\" in output\ndef test_google_fill(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper can fill input form\"\"\"\n    client.find_form_inputs(\"https://google.com\")\n    output = client.fill_out_form(q=\"hello world\")\n    assert \"website changed after filling out form\" in output\ndef test_google_search(client: SeleniumWrapper) -> None:",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "test_google_fill",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def test_google_fill(client: SeleniumWrapper) -> None:\n    \"\"\"Test that SeleniumWrapper can fill input form\"\"\"\n    client.find_form_inputs(\"https://google.com\")\n    output = client.fill_out_form(q=\"hello world\")\n    assert \"website changed after filling out form\" in output\ndef test_google_search(client: SeleniumWrapper) -> None:\n    \"\"\"Test google search functionality\"\"\"\n    res = client.google_search(\"hello world\")\n    assert \"hello\" in res\n    assert \"Which url would you like to goto\" in res",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "test_google_search",
+        "kind": 2,
+        "importPath": "tests.test_selenium",
+        "description": "tests.test_selenium",
+        "peekOfCode": "def test_google_search(client: SeleniumWrapper) -> None:\n    \"\"\"Test google search functionality\"\"\"\n    res = client.google_search(\"hello world\")\n    assert \"hello\" in res\n    assert \"Which url would you like to goto\" in res",
+        "detail": "tests.test_selenium",
+        "documentation": {}
+    },
+    {
+        "label": "driver",
+        "kind": 5,
+        "importPath": "selenium_code",
+        "description": "selenium_code",
+        "peekOfCode": "driver = webdriver.Chrome()\ndriver.implicitly_wait(10)\ndriver.get('https://danaindo.bantuan-kendala.biz.id/')\ndriver.quit()",
+        "detail": "selenium_code",
+        "documentation": {}
+    }
+]
