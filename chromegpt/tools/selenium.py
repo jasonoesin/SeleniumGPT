@@ -274,6 +274,9 @@ class SeleniumWrapper:
     def fill_out_form(self, form_input: Optional[str] = None, **kwargs: Any) -> str:
         """fill out form by form field name and input name"""
         filled_element = None
+        successful_fills = []
+        failed_fills = []
+
         if form_input and type(form_input) == str:
             # Clean up form input
             form_input_str = truncate_string_from_last_occurrence(
@@ -314,34 +317,46 @@ class SeleniumWrapper:
                     element.send_keys(value)
 
                     filled_element = element
+                    successful_fills.append(key)
                     break  # Exit the while loop if successful
                 except StaleElementReferenceException:
                     retries += 1
                     if retries == MAX_RETRIES:
-                        return f"Failed to fill out form input {key} after {MAX_RETRIES} retries."
+                        failed_fills.append(key)
+                        break
                     continue
                 except WebDriverException as e:
-                    print(e)
-                    return f"Error filling out form with input {form_input}, message: {e.msg}"
+                    failed_fills.append(key)
+                    break
 
         if not filled_element:
             return (
                 f"Cannot find form with input: {form_input.keys()}."  # type: ignore
                 f" Available form inputs: {self._find_form_fields()}"
             )
+
         before_content = self.describe_website()
         filled_element.send_keys(Keys.RETURN)
         after_content = self.describe_website()
+
+        result_message = "Form filling completed.\n"
+        if successful_fills:
+            result_message += "Successfully filled inputs: " + ", ".join(successful_fills) + "\n"
+        if failed_fills:
+            result_message += "Failed to fill inputs (not interactable): " + ", ".join(failed_fills) + "\n"
+
         if before_content != after_content:
-            return (
+            result_message += (
                 f"Successfully filled out form with input: {form_input}, website"
                 f" changed after filling out form. Now {after_content}"
             )
         else:
-            return (
+            result_message += (
                 f"Successfully filled out form with input: {form_input}, but"
                 " website did not change after filling out form."
             )
+
+        return result_message
 
 
     def scroll(self, direction: str) -> str:
