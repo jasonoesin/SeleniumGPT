@@ -1,0 +1,72 @@
+stages:
+  - build
+  - dry-run
+  - deploy
+variables:
+  ARGOCD_APP_NAME: "wham-selenium-gpt"
+  IMAGE_NAME: "registry-intl-vpc.ap-southeast-5.aliyuncs.com/dana-automation/wham-selenium-gpt:${CI_COMMIT_SHORT_SHA}"
+  CACHE_REPO: "registry-intl-vpc.ap-southeast-5.aliyuncs.com/dana-automation/kaniko-cache"
+
+build-code-job:
+  tags:
+    - aliyun-sit-runner
+  stage: build
+  image: gcr.io/kaniko-project/executor:v1.16.0-debug
+  # debug image contain shell
+  script:
+    - /kaniko/executor
+      --context "${CI_PROJECT_DIR}"
+      --dockerfile "Dockerfile"
+      --destination "${IMAGE_NAME}"
+      --cache=true
+      --cache-repo "${CACHE_REPO}"
+      --cache-copy-layers
+
+image:
+  name: argoproj/argocd:v2.6.15
+
+dry-run-aliyun-sit:
+  stage: dry-run
+  tags:
+    - aliyun-sit-runner
+  script:
+    - argocd app diff $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --exit-code=false
+    - echo "image set to ${IMAGE_NAME}"
+
+deploy-aliyun-sit:
+  stage: deploy
+  # only:
+  #    - master
+  tags:
+    - aliyun-sit-runner
+  script:
+    - argocd app set $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --kustomize-image "${IMAGE_NAME}"
+    - echo argocd app set $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --kustomize-image "${IMAGE_NAME}"
+    - argocd app sync $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --prune
+  when: manual
+  dependencies:
+    - dry-run-aliyun-sit
+
+dry-run:
+  stage: dry-run
+  only:
+    - master
+  tags:
+    - aliyun-prod-runner
+  script:
+    - argocd app diff $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --exit-code=false
+    - echo "image set to ${IMAGE_NAME}"
+
+deploy:
+  stage: deploy
+  only:
+    - master
+  tags:
+    - aliyun-prod-runner
+  script:
+    - argocd app set $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --kustomize-image "${IMAGE_NAME}"
+    - echo argocd app set $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --kustomize-image "${IMAGE_NAME}"
+    - argocd app sync $ARGOCD_APP_NAME --revision $CI_COMMIT_SHA --prune
+  when: manual
+  dependencies:
+    - dry-run

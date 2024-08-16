@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wham-selenium-gpt
+  namespace: "wham"
+  labels:
+    app: wham-selenium-gpt
+spec:
+  replicas: 1
+  revisionHistoryLimit: 10
+  selector:
+    matchLabels:
+      app: wham-selenium-gpt
+  template:
+    metadata:
+      labels:
+        app: wham-selenium-gpt
+    spec:
+      # terminationGracePeriodSeconds: 120
+      containers:
+        - name: wham-selenium-gpt
+          image: registry-intl-vpc.ap-southeast-5.aliyuncs.com/dana-automation/wham-selenium-gpt:replaceme
+          imagePullPolicy: "IfNotPresent"
+          # command: ["/usr/local/orchestrator/orchestrator", "-config", "/etc/orchestrator/orchestrator.conf.json", "http"]
+          envFrom:
+            - secretRef:
+                name: wham-selenium-gpt-secret
+            - configMapRef:
+                name: wham-selenium-gpt-config
+          resources:
+            requests:
+              memory: "512Mi"
+              cpu: "350m"
+            limits:
+              memory: "1024Mi"
+              cpu: "1050m"
+      imagePullSecrets:
+        - name: docker-auth
